@@ -4,7 +4,7 @@ Used React and Redux for the frontend, Node.js as a platform, express as a web f
 Within the Backend Folder, type the following command to initialize the package.json file.<br/>
 **npm init -y**
 
-Now we need to install the dependencies. I have installed all the dependencies that will need in this backend project. We will use a passport, passport-jwt, jsonwebtoken for authentication. Mongoose for ORM for MongoDB, the validator for validating the input types, body-parser for parsing the data that comes from request, gravatar for getting avatar image associated with an email address.<br/>
+Now we need to install the dependencies. I have installed all the dependencies that will need in this backend project. We will use a passport, passport-jwt, jsonwebtoken for authentication. Mongoose for MongoDB, the validator for validating the input types, body-parser for parsing the data that comes from request, gravatar for getting avatar image associated with an email address.<br/>
 **npm install --save bcryptjs body-parser express gravatar jsonwebtoken mongoose passport passport-jwt validator**
 
 Also, we need to install nodemon for development dependency.
